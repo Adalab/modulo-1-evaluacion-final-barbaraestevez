@@ -9,3 +9,13 @@
   align-items: center;
   background-color: $menu;
 }
+.headerMenu {
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  :hover {
+    transform: rotate(90deg);
+  }
+}
