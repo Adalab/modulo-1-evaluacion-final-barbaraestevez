@@ -1,5 +1,12 @@
-.reasons {
+.secondary-section {
   width: 100%;
   height: 624px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   background-color: $ice-blue;
+  margin: 30px 15px 60px 15px;
+}
+.box header {
+  grid-area: box-header;
 }
