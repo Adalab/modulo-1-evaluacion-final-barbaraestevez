@@ -1,1 +1,36 @@
-
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 15px 60px 15px;
+}
+.beforeTitle {
+  font-size: 14px;
+  font-family: $font-main;
+  font-weight: 400;
+  color: $lightblue;
+}
+.title-main-section {
+  font-size: 24px;
+  font-family: $font-highlights;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.text-main-section {
+  font-size: 18px;
+  font-family: $font-main;
+  font-weight: 400;
+  color: $text-main-section;
+  margin-top: 18px;
+}
+.button-go {
+  width: 76px;
+  height: 45px;
+  font-size: 20px;
+  font-family: $font-main;
+  font-weight: 500;
+  color: $buttons;
+  border-radius: 40px;
+  border-color: $buttons;
+  background-color: #fff;
+  margin-top: 20px;
+}
