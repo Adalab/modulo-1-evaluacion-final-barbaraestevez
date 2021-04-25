@@ -41,4 +41,13 @@
   background-color: #fff;
   margin: 30px 0 45px 0;
   line-height: 45px;
+  &:hover {
+    background-color: $color-link-button;
+    box-shadow: 0 2px 4px 0 rgba($txt-black, $alpha: 0.5);
+  }
+}
+.go {
+  color: $buttons;
+  // transition: color 6s ease, border 3s ease;
+  text-decoration: none;
 }
