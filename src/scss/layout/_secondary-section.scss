@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 20% 20% 20% 20%;
-  background-color: lightcoral;
+  background-color: $ice-blue;
   //margin-top: 60px;
   //z-index: 100;
 }
@@ -38,6 +38,9 @@
   text-align: center;
   line-height: 30px;
   color: #000;
+}
+.button-more {
+  justify-content: center;
 }
 .more-reasons {
   width: 184px;
