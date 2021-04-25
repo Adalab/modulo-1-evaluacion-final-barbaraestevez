@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 465px;
+  background-color: $bg-footer;
+}
+.links {
+  margin-bottom: 30px;
+}
+.item-links,
+.social-links {
+  font-size: 16px;
+  font-family: $font-main;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  color: $txt-white;
+}
+.copy {
+  font-size: 12px;
+  font-family: $font-main;
+  font-weight: 300;
+  align-items: center;
+  color: $txt-white;
+  //word-spacing: 100vw;
+}
+
+.material-icons {
+  font-size: 12px;
+  color: $buttons;
+}
