@@ -10,11 +10,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <a class="headerMenu" href="https://adalab.es/" title="Ir a Adalab">
         <img src="./assets/images/ico-menu.svg" alt="icono menu" />
       </a>
@@ -22,81 +26,108 @@
 
 
     <main>
-      <hero class="hero">
+      <hero class="hero" id="hero">
         <div class="imagen-hero">
           <h1 class="title">anonymous proxy</h1>
           <p class="text-hero">In hac habitasse platea dictumst.</p>
           <button class="button">
-            <img
-              class="icon-scroll"
-              src="./assets/images/ico-scroll-down.svg"
-              alt="icono scroll down"
-            />
+            <a class="link-secondary" href="./index.html#secondary-section">
+              <img
+                class="icon-scroll"
+                src="./assets/images/ico-scroll-down.svg"
+                alt="icono scroll down"
+            /></a>
           </button>
         </div>
       </hero>
 
-      <section class="main-section">
+      <section class="main-section" id="main-section">
         <h5 class="beforeTitle">Insomnia Tips</h5>
         <h2 class="title-main-section">Looking Through A Window</h2>
         <p class="text-main-section">
           Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
           luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <button class="button-go">Go</button>
+        <a class="button-go" href="https://adalab.es/" title="Ir a Adalab">Go</a>
       </section>
 
-      <section class="secondary-section">
-        <div class="box title">
+      <section class="secondary-section" id="secondary-section">
+        <div class="box-title">
           <h2 class="title-reasons">3 Reasons To Purchase</h2>
         </div>
-        <div class="box article1">
+        <div class="box-article">
           <article class="article">
             <h3 class="title-article">Ut sed metus</h3>
             <p class="text-article">Lorem ipsum dolor sit amet, consecteur.</p>
           </article>
         </div>
-        <div class="box article2">
+        <div class="box-article">
           <article class="article">
             <h3 class="title-article">Curabitur ac erat</h3>
             <p class="text-article">Mauris mattis urna quis lorem molestie.</p>
           </article>
         </div>
-        <div class="box article3">
+        <div class="box-article">
           <article class="article">
             <h3 class="title-article">Morbi dictum</h3>
             <p class="text-article">Aliquam in dolor et dolor tincidunt.</p>
           </article>
         </div>
-        <div class="button-more">
-          <button class="more-reasons">boton_more_reasons</button>
-        </div>
+        <a
+          class="button-more-reasons"
+          href="https://adalab.es/"
+          title="Click to more reasons"
+          >More reasons</a
+        >
       </section>
 
     </main>
-    <footer class="footer">
-      flecha-transicion-inicio-pag
-      <ul class="links">
-        <li class="item-links">Articles</li>
-        <li class="item-links">Books</li>
-        <li class="item-links">Events</li>
-        <li class="item-links">Reasons</li>
-        <li class="item-links">Tips</li>
+    <footer class="footer" id="footer">
+      <button class="arrow-button">
+        <a class="link-top" href="./index.html#hero">
+          <img
+            class="icon-scroll-up"
+            src="./assets/images/ico-arrow.svg"
+            alt="subir a la cabecera"
+        /></a>
+      </button>
+      <ul class="links-section">
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab"
+            >Articles</a
+          >
+        </li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab">Books</a>
+        </li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab">Events</a>
+        </li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab">Reasons</a>
+        </li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab">Tips</a>
+        </li>
       </ul>
       <ul class="social">
-        <li class="social-links">Twitter</li>
-        <li class="social-links">Instagram Mastodon.social</li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab">Twitter</a>
+        </li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab"
+            >Instagram</a
+          >
+        </li>
+        <li class="item-links">
+          <a class="links" href="https://adalab.es/" title="Ir a Adalab"
+            >Mastodon.social</a
+          >
+        </li>
       </ul>
-      <small
-        >&copy;2021 we ❤︎ components
-        <!-- <div class="icon"><i class="fas fa-heart"></i></div> -->
-      </small>
+      <small class="copy">&copy;2021</small>
+      <span class="span">we <span class="material-icons">❤</span> components</span>
     </footer>
 
-    <!-- <div class="">
-      
-      <footer class=""></footer>
-
-    </div> -->
   </body>
 </html>
