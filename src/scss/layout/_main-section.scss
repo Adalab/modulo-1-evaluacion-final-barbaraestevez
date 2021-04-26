@@ -10,6 +10,9 @@
   font-weight: 400;
   color: $lightblue;
   line-height: 30px;
+  @media all and (min-width: 768px) {
+    padding: 0 39px;
+  }
 }
 .title-main-section {
   font-size: 24px;
@@ -17,6 +20,12 @@
   font-weight: 700;
   margin-top: 0px;
   line-height: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
+    padding: 0 39px;
+    margin-bottom: 15px;
+  }
 }
 .text-main-section {
   font-size: 18px;
@@ -25,6 +34,12 @@
   color: $text-main-section;
   margin-top: 18px;
   line-height: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 39px;
+    margin-bottom: 15px;
+  }
 }
 .button-go {
   width: 76px;
@@ -46,5 +61,9 @@
   &:hover {
     background-color: $lightblue;
     box-shadow: 0 2px 4px 0 rgba($txt-black, $alpha: 0.5);
+  }
+  @media all and (min-width: 768px) {
+    width: 91px;
+    margin-left: 39px;
   }
 }
