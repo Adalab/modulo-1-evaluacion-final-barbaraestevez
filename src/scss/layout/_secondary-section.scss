@@ -9,11 +9,10 @@
   background-color: $ice-blue;
 }
 .box-title {
-  //height: 30px;
   grid-column: span 3;
   margin: 10px 0 10px 0;
   padding: 20px 15px 20px 15px;
-  align-items: center;
+  //align-items: center;
 }
 .box-article {
   grid-column: span 3;
@@ -45,18 +44,23 @@
   line-height: 30px;
   color: #000;
 }
-.button-more {
+// .button-more {
+//   width: 184px;
+//   height: 45px;
+//   grid-column: span 3;
+//   grid-row: auto;
+//   align-items: center;
+//   margin: 15px 0 45px 0;
+// }
+.button-more-reasons {
   grid-column: span 3;
-  align-items: center;
-  justify-content: center;
-  padding: 0 68px 0 68px;
-  margin: 15px 0 45px 0;
-}
-.more-reasons {
-  width: 184px;
   height: 45px;
+  text-align: center;
+  padding: 12px 0 12px 0;
+  margin: 5px 68px 55px 68px;
   font-size: 20px;
   font-family: $font-main;
+  text-decoration: none;
   color: #fff;
   background-color: $buttons;
   border-radius: 40px;
@@ -64,4 +68,10 @@
   border-image: none;
   border-style: none;
   border-width: 0px;
+  transition: color 5s ease;
+}
+.button-more-reasons:hover {
+  transform: scale(1.1);
+  color: fade-in($color: $buttons, $amount: 0);
+  background-color: fade-in($color: $bg-footer, $amount: 0);
 }
