@@ -25,6 +25,13 @@
   line-height: 55px;
   text-align: center;
   color: $txt-white;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+    text-shadow: 0 2px 3px 0 rgba($color: #000, $alpha: 0.2);
+    margin: 384px 0 20px 0;
+    padding: 0 39px;
+  }
 }
 .text-hero {
   width: 100%;
@@ -35,6 +42,12 @@
   text-align: center;
   margin-bottom: 20px;
   padding: 0 15px;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 130px 0 20px 0;
+    padding: 0 204px;
+  }
 }
 .button {
   width: 45px;
