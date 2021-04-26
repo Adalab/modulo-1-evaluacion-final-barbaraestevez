@@ -1,20 +1,22 @@
 .secondary-section {
   width: 100%;
   height: 397px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15% 1fr 1fr 1fr 20%;
   justify-content: center;
   align-items: center;
   background-color: $ice-blue;
+}
+.grid {
+  height: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 33%);
+  margin-bottom: 45px;
   @media all and (min-width: 768px) {
-    grid-template-rows: 25% 1fr 30%;
   }
 }
 .box-title {
-  grid-column: span 3;
-  margin: 10px 0 10px 0;
-  padding: 20px 15px 20px 15px;
+  margin: 0 0 10px 0;
+  padding: 30px 15px 25px 15px;
 }
 .title-reasons {
   font-size: 24px;
@@ -62,10 +64,13 @@
     margin-bottom: 20px;
   }
 }
-.button-more-reasons {
-  grid-column: span 3;
+.button-more {
+  width: 184px;
   height: 45px;
+  margin: 0 70px 45px 70px;
   text-align: center;
+}
+.button-more-reasons {
   padding: 12px 0 12px 0;
   font-size: 20px;
   font-family: $font-main;
@@ -78,9 +83,7 @@
   border-style: none;
   border-width: 0px;
   transition: color 5s ease;
-  margin: 5px 68px 55px 68px;
   @media all and (min-width: 768px) {
-    margin: 0 280px 60px 278px;
   }
 }
 .button-more-reasons:hover {
