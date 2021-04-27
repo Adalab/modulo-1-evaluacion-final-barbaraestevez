@@ -1,5 +1,5 @@
 .hero {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 .imagen-hero {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -37,6 +37,7 @@
     font-size: 100px;
     line-height: 132px;
     word-spacing: 100vw;
+    margin: 384px 0 20px 0;
     text-shadow: 0 2px 5px 0 rgba($color: #000, $alpha: 0.2);
   }
 }
