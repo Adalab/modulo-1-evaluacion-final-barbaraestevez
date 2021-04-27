@@ -28,9 +28,16 @@
   @media all and (min-width: 768px) {
     font-size: 80px;
     line-height: 106px;
+    word-spacing: 100vw;
     text-shadow: 0 2px 3px 0 rgba($color: #000, $alpha: 0.2);
     margin: 384px 0 20px 0;
     padding: 0 39px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 132px;
+    word-spacing: 100vw;
+    text-shadow: 0 2px 5px 0 rgba($color: #000, $alpha: 0.2);
   }
 }
 .text-hero {
@@ -48,6 +55,9 @@
     margin: 130px 0 20px 0;
     padding: 0 204px;
   }
+  @media all and (min-width: 1200px) {
+    margin: 160px 0 20px 0;
+  }
 }
 .button {
   width: 45px;
@@ -60,7 +70,24 @@
   left: 50%;
   bottom: 53px;
   transform: translate(-50%, 0);
-  margin-top: 20px;
+  animation-name: spin;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media all and (min-width: 768px) {
+    bottom: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    bottom: 13px;
+  }
 }
 .icon-scroll {
   vertical-align: middle;
