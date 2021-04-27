@@ -2,5 +2,4 @@
 
 # Bárbara Estévez Simonet
 
-Yiiihaaaa!!
-Working in progress
+Bienvenidos al repositorio de mi ejercicio de la evaluación final del primer módulo.
