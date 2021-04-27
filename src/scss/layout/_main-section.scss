@@ -13,6 +13,9 @@
   @media all and (min-width: 768px) {
     padding: 0 39px;
   }
+  @media all and (min-width: 1200px) {
+    padding: 0 275px;
+  }
 }
 .title-main-section {
   font-size: 24px;
@@ -25,6 +28,9 @@
     line-height: 45px;
     padding: 0 39px;
     margin-bottom: 15px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0 275px;
   }
 }
 .text-main-section {
@@ -39,6 +45,9 @@
     line-height: 30px;
     padding: 0 39px;
     margin-bottom: 15px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0 275px;
   }
 }
 .button-go {
@@ -65,5 +74,9 @@
   @media all and (min-width: 768px) {
     width: 91px;
     margin-left: 39px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 160px;
+    margin-left: 275px;
   }
 }
