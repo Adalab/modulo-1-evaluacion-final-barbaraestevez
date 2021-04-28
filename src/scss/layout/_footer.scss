@@ -1,5 +1,5 @@
 .footer {
-  background-color: $bg-footer;
+  background-color: $menu;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,32 +30,33 @@
 .icon-scroll-up {
   vertical-align: middle;
 }
-.wrap {
-  display: flex;
-  flex-direction: column;
-  @media all and (min-width: 768px) {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    padding: 45px 39px;
-    justify-content: space-between;
-  }
-  @media all and (min-width: 1200px) {
-    padding: 45px 370px;
-  }
-}
+// .wrap {
+//   display: flex;
+//   flex-direction: column;
+//   @media all and (min-width: 768px) {
+//     width: 100vw;
+//     display: flex;
+//     flex-direction: row;
+//     padding: 45px 39px;
+//     justify-content: space-between;
+//   }
+//   @media all and (min-width: 1200px) {
+//     padding: 45px 370px;
+//   }
+// }
 .links-section,
 .social {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .links-section {
+  order: 2;
   @media all and (min-width: 768px) {
-    order: 1;
+    order: 2;
   }
 }
 .social {
   @media all and (min-width: 768px) {
-    order: 2;
+    order: 0;
   }
 }
 .item-links {
@@ -74,7 +75,7 @@
 .links:visited,
 .links:active {
   text-decoration: none;
-  color: $txt-white;
+  color: $txt-black;
 }
 .copy {
   font-size: 14px;
@@ -82,8 +83,9 @@
   line-height: 30px;
   font-weight: 300;
   text-align: center;
-  color: $txt-white;
+  color: $txt-black;
   margin-bottom: 45px;
+  order: -1;
   @media all and (min-width: 768px) {
     text-align: left;
   }
@@ -91,4 +93,10 @@
 .material-icons {
   font-size: 14px;
   color: $buttons;
+}
+.hightlight {
+  color: $txt-black;
+  @media all and (min-width: 768px) {
+    color: $buttons;
+  }
 }
